@@ -151,7 +151,7 @@ public class XyMenuController {
             }
         } catch (Exception e) {
             log.error("系统异常{}", e);
-            return CommonResult.failed("系统异常");
+            return CommonResult.failed("系统异常了");
         }
     }
 
